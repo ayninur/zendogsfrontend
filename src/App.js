@@ -33,7 +33,7 @@ function App() {
     fetch(url + "/dog", {
       method: "post",
       headers: {
-        "Content-type": "applications/json"
+        "Content-type": "application/json"
       },
       body: JSON.stringify(newDog)
     }).then(response => {
